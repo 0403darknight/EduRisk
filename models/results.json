@@ -1,0 +1,153 @@
+{
+  "model_results": {
+    "Logistic Regression": {
+      "accuracy": 81.75,
+      "f1": 81.84,
+      "precision": 81.98,
+      "recall": 81.75,
+      "confusion_matrix": [
+        [
+          118,
+          18,
+          0
+        ],
+        [
+          20,
+          98,
+          14
+        ],
+        [
+          0,
+          21,
+          111
+        ]
+      ]
+    },
+    "KNN": {
+      "accuracy": 56.75,
+      "f1": 57.27,
+      "precision": 58.35,
+      "recall": 56.75,
+      "confusion_matrix": [
+        [
+          85,
+          40,
+          11
+        ],
+        [
+          40,
+          67,
+          25
+        ],
+        [
+          6,
+          51,
+          75
+        ]
+      ]
+    },
+    "Decision Tree": {
+      "accuracy": 73.25,
+      "f1": 73.41,
+      "precision": 73.72,
+      "recall": 73.25,
+      "confusion_matrix": [
+        [
+          100,
+          32,
+          4
+        ],
+        [
+          22,
+          87,
+          23
+        ],
+        [
+          3,
+          23,
+          106
+        ]
+      ]
+    },
+    "Random Forest": {
+      "accuracy": 80.0,
+      "f1": 80.21,
+      "precision": 80.6,
+      "recall": 80.0,
+      "confusion_matrix": [
+        [
+          114,
+          22,
+          0
+        ],
+        [
+          20,
+          98,
+          14
+        ],
+        [
+          0,
+          24,
+          108
+        ]
+      ]
+    },
+    "Gradient Boosting": {
+      "accuracy": 77.25,
+      "f1": 77.43,
+      "precision": 77.71,
+      "recall": 77.25,
+      "confusion_matrix": [
+        [
+          110,
+          26,
+          0
+        ],
+        [
+          19,
+          91,
+          22
+        ],
+        [
+          0,
+          24,
+          108
+        ]
+      ]
+    }
+  },
+  "best_model_name": "Logistic Regression",
+  "risk_map": {
+    "2": "Low Risk",
+    "0": "Medium Risk",
+    "1": "High Risk"
+  },
+  "feature_importance": {
+    "Attendance (%)": 0.20774825137704195,
+    "Curricular units 2nd sem (grade)": 0.16437455803829598,
+    "Curricular units 1st sem (grade)": 0.1483075930507278,
+    "Age at enrollment": 0.03156273762986164,
+    "Previous qualification (grade)": 0.031336738394228944,
+    "Unemployment rate": 0.030784544522118703,
+    "Admission grade": 0.030658593442171176,
+    "Inflation rate": 0.03001666617496421,
+    "GDP": 0.029399982385532698,
+    "Nationality": 0.024228335362761883,
+    "Course": 0.020815020493353407,
+    "Application mode": 0.019477712129689337,
+    "Mother's occupation": 0.019099993780501513,
+    "Father's occupation": 0.017539026811570997,
+    "Previous qualification": 0.017303507827380233
+  },
+  "dataset_stats": {
+    "total_students": 2000,
+    "dropout_count": 680,
+    "enrolled_count": 660,
+    "graduate_count": 660,
+    "dropout_rate": 34.0,
+    "graduate_rate": 33.0,
+    "avg_sem1_grade": 12.96,
+    "avg_sem2_grade": 12.71,
+    "avg_attendance": 70.5
+  }
+}
