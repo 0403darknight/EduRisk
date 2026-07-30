@@ -7,7 +7,10 @@ import joblib
 import json
 import warnings
 warnings.filterwarnings('ignore')
-
+import os
+if not os.path.exists('models/best_model.pkl'):
+    exec(open('train_models.py').read())
+    
 st.set_page_config(
     page_title="EduRisk — Student Dropout Intelligence",
     page_icon="🎓", layout="wide",
