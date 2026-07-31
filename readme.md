@@ -50,7 +50,7 @@ To run the application locally, follow the [Installation & Setup](#installation-
 
 After setup, the app runs at:
 ```
-http://localhost:8501
+https://edurisk-ai.streamlit.app/
 ```
 
 ---
